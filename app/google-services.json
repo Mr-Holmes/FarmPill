@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "307955126145",
+    "firebase_url": "https://farmacia-86c1d.firebaseio.com",
+    "project_id": "farmacia-86c1d",
+    "storage_bucket": "farmacia-86c1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307955126145:android:7696e597b3996551",
+        "android_client_info": {
+          "package_name": "com.example.alunoifpe.farmpill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307955126145-p0n3u5k4ta4m0v8k8pdjqmae58tu85ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5hxhZ0s7jxFJG-7uwicu6EMw2PkjSfp0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

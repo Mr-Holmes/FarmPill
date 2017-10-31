@@ -1,4 +1,4 @@
-package com.example.alunoifpe.farmpill;
+package com.example.alunoifpe.farmpill.model;
 
 /**
  * Created by Gabriel on 30/10/2017.
@@ -6,9 +6,15 @@ package com.example.alunoifpe.farmpill;
 
 public class Dimensoes {
 
-    float altura;
-    float largura;
-    float profundidade;
+    private float altura;
+    private float largura;
+    private float profundidade;
+
+    public Dimensoes(float altura, float largura, float profundidade){
+        this.altura = altura;
+        this.largura = largura;
+        this.profundidade = profundidade;
+    }
 
     public float getAltura() {
         return altura;

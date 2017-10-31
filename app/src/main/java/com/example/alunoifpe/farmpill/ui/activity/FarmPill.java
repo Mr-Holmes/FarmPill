@@ -1,7 +1,10 @@
-package com.example.alunoifpe.farmpill;
+package com.example.alunoifpe.farmpill.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.alunoifpe.farmpill.Estante;
+import com.example.alunoifpe.farmpill.R;
 
 public class FarmPill extends AppCompatActivity {
 

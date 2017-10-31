@@ -1,4 +1,4 @@
-package com.example.alunoifpe.farmpill;
+package com.example.alunoifpe.farmpill.model;
 
 /**
  * Created by Gabriel on 30/10/2017.
@@ -14,6 +14,17 @@ public class Farmacia {
     float preçoPorCaixa;
     double demandaAnual;
     Lote lote;
+
+    public Farmacia(String descricao, String um, int qtdDeCaixas, String embalagem, Dimensoes dimensoes, float preçoPorCaixa, double demandaAnual, Lote lote) {
+        this.descricao = descricao;
+        this.um = um;
+        this.qtdDeCaixas = qtdDeCaixas;
+        this.embalagem = embalagem;
+        this.dimensoes = dimensoes;
+        this.preçoPorCaixa = preçoPorCaixa;
+        this.demandaAnual = demandaAnual;
+        this.lote = lote;
+    }
 
     public String getDescricao() {
         return descricao;

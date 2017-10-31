@@ -4,13 +4,13 @@ package com.example.alunoifpe.farmpill.model;
  * Created by Gabriel on 30/10/2017.
  */
 
-public class Dimensoes {
+public class DimensoesModel {
 
     private float altura;
     private float largura;
     private float profundidade;
 
-    public Dimensoes(float altura, float largura, float profundidade){
+    public DimensoesModel(float altura, float largura, float profundidade){
         this.altura = altura;
         this.largura = largura;
         this.profundidade = profundidade;

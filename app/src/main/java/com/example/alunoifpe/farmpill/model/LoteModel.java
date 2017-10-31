@@ -4,14 +4,14 @@ package com.example.alunoifpe.farmpill.model;
  * Created by Gabriel on 30/10/2017.
  */
 
-public class Lote {
+public class LoteModel {
 
     int Quantidade;
     String entrada;
     String validade;
     int venda;
 
-    public Lote(int quantidade, String entrada, String validade, int venda) {
+    public LoteModel(int quantidade, String entrada, String validade, int venda) {
         Quantidade = quantidade;
         this.entrada = entrada;
         this.validade = validade;

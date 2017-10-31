@@ -6,16 +6,18 @@ package com.example.alunoifpe.farmpill.model;
 
 public class FarmaciaModel {
 
-    String descricao;
-    String um;
-    int qtdDeCaixas;
-    String embalagem;
-    DimensoesModel dimensoes;
-    float preçoPorCaixa;
-    double demandaAnual;
-    LoteModel lote;
+    private String descricao;
+    private String um;
+    private int qtdDeCaixas;
+    private String embalagem;
+    private DimensoesModel dimensoes;
+    private float preçoPorCaixa;
+    private double demandaAnual;
+    private LoteModel lote;
 
-    public FarmaciaModel(String descricao, String um, int qtdDeCaixas, String embalagem, DimensoesModel dimensoes, float preçoPorCaixa, double demandaAnual, LoteModel lote) {
+    public FarmaciaModel(String descricao, String um, int qtdDeCaixas, String embalagem,
+                         float preçoPorCaixa, double demandaAnual, DimensoesModel dimensoes, LoteModel lote) {
+
         this.descricao = descricao;
         this.um = um;
         this.qtdDeCaixas = qtdDeCaixas;
@@ -24,6 +26,7 @@ public class FarmaciaModel {
         this.preçoPorCaixa = preçoPorCaixa;
         this.demandaAnual = demandaAnual;
         this.lote = lote;
+
     }
 
     public String getDescricao() {

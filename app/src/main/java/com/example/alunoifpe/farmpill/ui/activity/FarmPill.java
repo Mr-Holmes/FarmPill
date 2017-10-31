@@ -13,6 +13,6 @@ public class FarmPill extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_farm_pill);
 
-        Estante estante [] [] = new Estante[4][4];
+//        Estante estante [] [] = new Estante[4][4];
     }
 }

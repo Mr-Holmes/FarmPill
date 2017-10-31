@@ -1,4 +1,4 @@
-package com.example.alunoifpe.farmpill;
+package com.example.alunoifpe.farmpill.ui.other;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

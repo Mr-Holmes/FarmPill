@@ -1,7 +1,6 @@
-package com.example.alunoifpe.farmpill;
+package com.example.alunoifpe.farmpill.ui.other;
 
 import com.example.alunoifpe.farmpill.model.FirebaseModel;
-import com.google.firebase.database.ValueEventListener;
 
 /**
  * Created by gabrielneves on 31/10/17.

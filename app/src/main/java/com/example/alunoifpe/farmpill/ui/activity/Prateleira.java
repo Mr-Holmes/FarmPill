@@ -1,4 +1,4 @@
-package com.example.alunoifpe.farmpill;
+package com.example.alunoifpe.farmpill.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

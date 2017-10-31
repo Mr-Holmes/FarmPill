@@ -19,7 +19,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.activity.Prateleira" />
-        <activity android:name=".Formulario"></activity>
     </application>
 
 </manifest>

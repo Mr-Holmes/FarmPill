@@ -6,37 +6,33 @@ package com.example.alunoifpe.farmpill.model;
 
 public class DimensoesModel {
 
-    private float altura;
-    private float largura;
-    private float profundidade;
+    private double altura;
+    private double largura;
+    private double profundidade;
 
-    public DimensoesModel(float altura, float largura, float profundidade){
-        this.altura = altura;
-        this.largura = largura;
-        this.profundidade = profundidade;
-    }
+    public DimensoesModel(){}
 
-    public float getAltura() {
+    public double getAltura() {
         return altura;
     }
 
-    public void setAltura(float altura) {
+    public void setAltura(double altura) {
         this.altura = altura;
     }
 
-    public float getLargura() {
+    public double getLargura() {
         return largura;
     }
 
-    public void setLargura(float largura) {
+    public void setLargura(double largura) {
         this.largura = largura;
     }
 
-    public float getProfundidade() {
+    public double getProfundidade() {
         return profundidade;
     }
 
-    public void setProfundidade(float profundidade) {
+    public void setProfundidade(double profundidade) {
         this.profundidade = profundidade;
     }
 

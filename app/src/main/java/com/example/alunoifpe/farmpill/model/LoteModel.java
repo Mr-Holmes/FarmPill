@@ -6,23 +6,18 @@ package com.example.alunoifpe.farmpill.model;
 
 public class LoteModel {
 
-    int Quantidade;
-    String entrada;
-    String validade;
-    int venda;
+    private double Quantidade;
+    private String entrada;
+    private String validade;
+    private double venda;
 
-    public LoteModel(int quantidade, String entrada, String validade, int venda) {
-        Quantidade = quantidade;
-        this.entrada = entrada;
-        this.validade = validade;
-        this.venda = venda;
-    }
+    public LoteModel() {}
 
-    public int getQuantidade() {
+    public double getQuantidade() {
         return Quantidade;
     }
 
-    public void setQuantidade(int quantidade) {
+    public void setQuantidade(double quantidade) {
         Quantidade = quantidade;
     }
 
@@ -42,11 +37,11 @@ public class LoteModel {
         this.validade = validade;
     }
 
-    public int getVenda() {
+    public double getVenda() {
         return venda;
     }
 
-    public void setVenda(int venda) {
+    public void setVenda(double venda) {
         this.venda = venda;
     }
 }

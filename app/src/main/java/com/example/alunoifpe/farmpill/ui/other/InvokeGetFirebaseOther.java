@@ -17,8 +17,8 @@ public class InvokeGetFirebaseOther implements ValueEventListener {
         for (DataSnapshot dataSnapshot1 : dataSnapshots) {
 
             final FarmaciaModel local = dataSnapshot1.getValue(FarmaciaModel.class);
-            Log.d("", "Descrição: "+local.getDescricao());
-
+            Log.d(""," "+local.getDescricao() + "  " +local.getUm() + "  " + local.getQtdPorCaixas() + "  "+
+                    local.getEmbalagem() + "  "+local.getPrecoPorCaixa() + "  "+local.getDemandaAnual() + "\n");
         }
 
     }

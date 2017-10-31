@@ -8,26 +8,12 @@ public class FarmaciaModel {
 
     private String descricao;
     private String um;
-    private int qtdDeCaixas;
+    private double qtdPorCaixas;
     private String embalagem;
-    private DimensoesModel dimensoes;
-    private float preçoPorCaixa;
+    private float precoPorCaixa;
     private double demandaAnual;
-    private LoteModel lote;
 
-    public FarmaciaModel(String descricao, String um, int qtdDeCaixas, String embalagem,
-                         float preçoPorCaixa, double demandaAnual, DimensoesModel dimensoes, LoteModel lote) {
-
-        this.descricao = descricao;
-        this.um = um;
-        this.qtdDeCaixas = qtdDeCaixas;
-        this.embalagem = embalagem;
-        this.dimensoes = dimensoes;
-        this.preçoPorCaixa = preçoPorCaixa;
-        this.demandaAnual = demandaAnual;
-        this.lote = lote;
-
-    }
+    public FarmaciaModel(){}
 
     public String getDescricao() {
         return descricao;
@@ -45,12 +31,12 @@ public class FarmaciaModel {
         this.um = um;
     }
 
-    public int getQtdDeCaixas() {
-        return qtdDeCaixas;
+    public double getQtdPorCaixas() {
+        return qtdPorCaixas;
     }
 
-    public void setQtdDeCaixas(int qtdDeCaixas) {
-        this.qtdDeCaixas = qtdDeCaixas;
+    public void setQtdPorCaixas(double qtdDeCaixas) {
+        this.qtdPorCaixas = qtdDeCaixas;
     }
 
     public String getEmbalagem() {
@@ -61,20 +47,12 @@ public class FarmaciaModel {
         this.embalagem = embalagem;
     }
 
-    public DimensoesModel getDimensoes() {
-        return dimensoes;
+    public float getPrecoPorCaixa() {
+        return precoPorCaixa;
     }
 
-    public void setDimensoes(DimensoesModel dimensoes) {
-        this.dimensoes = dimensoes;
-    }
-
-    public float getPreçoPorCaixa() {
-        return preçoPorCaixa;
-    }
-
-    public void setPreçoPorCaixa(float preçoPorCaixa) {
-        this.preçoPorCaixa = preçoPorCaixa;
+    public void setPrecoPorCaixa(float precoPorCaixa) {
+        this.precoPorCaixa = precoPorCaixa;
     }
 
     public double getDemandaAnual() {
@@ -85,13 +63,6 @@ public class FarmaciaModel {
         this.demandaAnual = demandaAnual;
     }
 
-    public LoteModel getLote() {
-        return lote;
-    }
-
-    public void setLote(LoteModel lote) {
-        this.lote = lote;
-    }
 
 
 
